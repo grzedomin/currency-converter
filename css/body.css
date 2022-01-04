@@ -1,0 +1,10 @@
+.body{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;  
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
