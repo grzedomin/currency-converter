@@ -1,6 +1,5 @@
 {
     const calculateCurrency = (amount, currency) => {
-
         const EUR = 4.20;
         const USD = 4.08;
         const GBP = 5.42;
@@ -17,9 +16,9 @@
         }
     }
 
-    const calcResult = (result, currency) => {
+    const calculateResult = (result, currency) => {
         const resultElement = document.querySelector(".js-result");
-        resultElement.innerText = `${result.toFixed(2)} ${currency}`
+        resultElement.innerText = `${result.toFixed(2)} ${currency}`;
     }
 
     const onFormSubmit = (event) => {
@@ -33,7 +32,7 @@
 
         let result = calculateCurrency(amount, currency);
 
-        calcResult(result, currency);
+        calculateResult(result, currency);
     };
 
     const init = () => {
