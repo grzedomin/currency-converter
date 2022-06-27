@@ -1,5 +1,5 @@
-# currency-converter
-short currency converter in javascript, html
+# Currency-converter
+Simple currency converter in vanilla JS with three currencies to change. Project extended in currency-converter-react repository.
 
-## Link:
+## Demo:
 https://grzedomin.github.io/currency-converter/
